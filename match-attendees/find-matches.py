@@ -4,7 +4,7 @@ from mcp_agent.app import MCPApp
 from mcp_agent.agents.agent import Agent
 from mcp_agent.workflows.llm.augmented_llm_openai import OpenAIAugmentedLLM
 
-app = MCPApp(name="harvest-ai-alliance-members")
+app = MCPApp(name="find-matches")
 
 async def main():
     async with app.run():
@@ -25,3 +25,4 @@ if __name__ == "__main__":
 
 # Add your LLM API key to `mcp_agent.secrets.yaml` or set it in env.
 # The [Getting Started guide](https://docs.mcp-agent.com/get-started/overview) walks through configuration and secrets in detail.
+
