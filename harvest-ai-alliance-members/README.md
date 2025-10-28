@@ -1,4 +1,4 @@
-# The Harvest Agent creates a summary for each company in the AI Alliance
+# Harvest Agent to create a summary for each company in the AI Alliance
 
 This agent uses a master list of AI Alliance company URLs and then scrapes
 each website to summarize what they do.
